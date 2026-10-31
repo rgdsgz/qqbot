@@ -1,0 +1,14 @@
+node_modules/
+*.log
+.DS_Store
+media/
+profiles/
+.expert-bus/
+lib/*.bak-*
+
+# standalone bot: real config contains secrets, data is local state
+config.json
+data/
+dist/
+_smoke/
+

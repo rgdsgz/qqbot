@@ -1,0 +1,31 @@
+# Secrets and runtime data (never commit)
+config.json
+data/
+backups/
+restore-*/
+*.qbak
+*.zip
+*.log
+*.pid
+
+# Third-party / build output
+napcat/
+qqbot/node_modules/
+qqbot/dist/
+qqbot/lib/
+qqbot/bin/
+
+# Upstream DSH plugin leftovers (kept locally for reference)
+qqbot/tests/
+qqbot/docs/
+qqbot/DEVLOG.md
+qqbot/README.upstream.md
+qqbot/README.en.md
+qqbot/dsh.plugin.json
+qqbot/cordis.patch.yml
+qqbot/tsconfig.json
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
